@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Call</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        video { width: 40%; margin: 10px; }
+        #videos { display: flex; justify-content: center; flex-wrap: wrap; }
+    </style>
+</head>
+<body>
+    <h1>Video Call</h1>
+    <div id="videos"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://unpkg.com/simple-peer@latest/simplepeer.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
